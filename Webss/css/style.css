@@ -1,0 +1,53 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    width: 90%;
+}
+header{
+    
+    text-align:center;
+    padding:2em 1em;
+}
+.Logo{
+    height: 100%;
+    width: 60%;
+}
+.thanh{
+    display:flex;
+}
+.menu{
+    flex:70%;
+    padding:1em;
+}
+
+.thanh a{
+    text-decoration:none;
+    color:black;
+    margin:1em;
+}
+.thanh a:hover:not(.active){
+    font-weight:bold;
+    color:#ffa366;
+}
+.search-zone{
+    flex:30%;
+    margin:0.5em;
+}
+.search-zone input[type="text"]{
+    width:100%;
+    padding:0.3em;
+    border-radius:1em;
+    border:1px solid gray;
+    outline:none;
+}
+.search-zone input[type="text"]:focus{
+    background-color:lightgray;
+}
+.footer{
+    background-color: blue;
+    color: floralwhite;
+}
+
