@@ -9,7 +9,7 @@ body{
 header{
     
     text-align:center;
-    padding:2em 1em;
+    
 }
 .Logo{
     height: 100%;
@@ -19,8 +19,8 @@ header{
     display:flex;
 }
 .menu{
-    flex:70%;
-    padding:1em;
+    flex:80%;
+  
 }
 
 .thanh a{
@@ -33,7 +33,7 @@ header{
     color:#ffa366;
 }
 .search-zone{
-    flex:30%;
+    flex:20%;
     margin:0.5em;
 }
 .search-zone input[type="text"]{
@@ -50,4 +50,50 @@ header{
     background-color: blue;
     color: floralwhite;
 }
+.bang{
+    width: 100%;
+}
+span {
+    display: inline;
+  }
+  
+  span a, .dropbtn12 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+  }
+  
+  span a:hover, .dropdown12:hover .dropbtn12 {
+    background-color: red;
+     text-decoration: none;
+  }
+  
+  span.dropdown12 {
+    display: inline-block;
+  }
+  
+  .dropdown-content12 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+  }
+  
+  .dropdown-content12 a {
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content12 a:hover {background-color: #f1f1f1}
+  
+  .dropdown12:hover .dropdown-content12 {
+    display: block;
+  }
 

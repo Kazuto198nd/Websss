@@ -22,7 +22,7 @@
             <a href="#link">Tin tức</a>
             <a href="#link">Nghiên cứu</a>
             <a href="#link">Tuyển sinh</a>
-            <a href="#link">Login</a>
+            <a href="login.php">Login</a>
         </div>
         <div class="search-zone">
             <form>
