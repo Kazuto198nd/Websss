@@ -8,7 +8,8 @@ $(document).ready(function () {
             data: {username:username, password: password},
             dataType: "text",
             success: function (response) {
-                if(response == 'admin'){
+                if(response == 'admin' || response == 'sinhvien' || response == 'giangvien'){
+                    localStorage.setItem("role",response );
                     window.location.href = 'index2.php'
                 }
                 else{
@@ -16,5 +17,10 @@ $(document).ready(function () {
                 }
             }
         });
+    });
+
+    $('#btnTrangChu').click(function () { 
+        window.location.href = 'index.php'
+        
     });
 });

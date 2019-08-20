@@ -17,8 +17,7 @@
 <body>
 <div class="thanh" style="background-color: rgba(93, 141, 185, 0.829)">
         <div class="menu">
-            <a class="active" href="#link">Home</a>
-            <a href="#link">Giới thiệu</a>
+            <a class="active" href="index2.php">Home</a>
             <a href="#link">Giáo dục</a>
             <a href="#link">Tin tức</a>
             <a href="#link">Nghiên cứu</a>
@@ -26,14 +25,14 @@
             <span class="dropdown12">
                 <a href="javascript:void(0)" class="dropbtn12">Điểm Danh</a>
                 <div class="dropdown-content12">
-                    <a href="diemdanh.php" id="T1" class="gttv">Công nghệ Webs </a>
-                    <a href="diemdanh.php" id="T2" class="cnnv">Cơ Sở Dữ Liệu</a>
-                    <a href="diemdanh.php" id="T3" class="hd">Mạng Máy Tính</a>
-                    <a href="diemdanh.php" id="T4" class="nq">Công NGhệ Phần Mềm</a>
+                    <a href="#" id="T1" class="gttv">Công nghệ Webs </a>
+                    <a href="#" id="T2" class="cnnv">Mạng Máy Tính</a>
+                    <a href="#" id="T3" class="hd">Công Nghệ Phần Mềm</a>
+                    <a href="#" id="T4" class="nq">Cơ Sở Dữ Liệu</a>
                 </div>
             </span>
 
-            <a href="#link">Loguot</a>
+            <a href="index.php">Loguot</a>
         </div>
         <div class="search-zone">
             <form>

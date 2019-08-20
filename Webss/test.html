@@ -20,7 +20,7 @@
 <div class="thanh" style="background-color: rgba(93, 141, 185, 0.829)">
         <div class="menu">
             <a class="active" href="#link">Home</a>
-            <a href="#link">Giới thiệu</a>
+            <a href="#link" class="abc">Giới thiệu</a>
             <a href="#link">Giáo dục</a>
             <a href="#link">Tin tức</a>
             <a href="#link">Nghiên cứu</a>
@@ -93,4 +93,130 @@
 </body>
 
 <script src="js/anh.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+    $(document).on('click', '.abc', function(){
+   
+  
+    $.ajax({
+     url:"gioithieu.php",
+     method:"POST",
+    
+     success:function(data){
+  
+      $('.anh').html(data);
+     
+     },
+    
+     error: function(){
+      alert('error!');
+    }
+    });
+  
+   });
+  
+  
+      $(document).on('click', '.cnnv', function(){
+  
+    $.ajax({
+     url:"block2/gioithieuthuvien/chucnangnhienvu.php",
+     method:"POST",
+     success:function(data){
+  
+      $('#conten').html(data); 
+     },
+     error: function(){
+      alert('error!');
+    }
+    });
+  
+   });
+  
+    $(document).on('click', '.hd', function(){
+  
+    $.ajax({
+     url:"block2/gioithieuthuvien/huongdan.php",
+     method:"POST",
+     success:function(data){
+  
+      $('#conten').html(data); 
+     },
+     error: function(){
+      alert('error!');
+    }
+    });
+  
+   });
+  
+    $(document).on('click', '.nq', function(){
+  
+    $.ajax({
+     url:"block2/gioithieuthuvien/noiquy.php",
+     method:"POST",
+     success:function(data){
+  
+      $('#conten').html(data); 
+     },
+     error: function(){
+      alert('error!');
+    }
+    });
+  
+   });
+  
+     $(document).on('click', '.hoidap', function(){
+  
+    $.ajax({
+     url:"block2/hoidap/hoidap.php",
+     method:"POST",
+     success:function(data){
+  
+      $('#conten').html(data); 
+     },
+     error: function(){
+      alert('error!');
+    }
+    });
+  
+   });
+  
+      $(document).on('click', '.gioithieusach', function(){
+  
+    $.ajax({
+     url:"block2/gioithieusach/gioithieusach.php",
+     method:"POST",
+     success:function(data){
+  
+      $('#conten').html(data); 
+     },
+     error: function(){
+      alert('error!');
+    }
+    });
+  
+   });
+  
+   //        $(document).on('click', '.Login', function(){
+  
+   //  $.ajax({
+   //   url:"login.php",
+   //   method:"POST",
+   //   success:function(data){
+  
+   //    $('#tonhat').html(data); 
+   //   },
+   //   error: function(){
+   //    alert('error!');
+   //  }
+   //  });
+  
+  
+   // });
+  
+    });  
+  
+  
+  </script>
+
 </html>

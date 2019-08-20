@@ -16,8 +16,8 @@
 <body>
 <div class="thanh" style="background-color: rgba(93, 141, 185, 0.829)">
         <div class="menu">
-            <a class="active" href="#link">Home</a>
-            <a href="#link">Giới thiệu</a>
+            <a class="active" href="index.php">Home</a>
+            <a href="gioithieu.php">Giới thiệu</a>
             <a href="#link">Giáo dục</a>
             <a href="#link">Tin tức</a>
             <a href="#link">Nghiên cứu</a>

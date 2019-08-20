@@ -9,7 +9,6 @@ $(document).ready(function () {
             var data = JSON.parse(response);
             console.log(data);
             var s='';
-
             s += "<tr>";
             s += "<th>";
             s += 'STT';
@@ -27,7 +26,6 @@ $(document).ready(function () {
             s += 'Điểm danh';
             s += "</th>";
             s += "</tr>";
-
             $.each(data, function (i, e) {
                 s += "<tr>";
                 s += "<td>";
@@ -47,16 +45,15 @@ $(document).ready(function () {
                 s += "</td>";
                 s += "</tr>";
             });
-
+            
             $('#bangdiemdanh').html(s);
-
             $("#btnThem").click(function () { 
                 var data=[];
                 $('.checkDiemDanh').each( function (index) { 
-                     var check = $(this).prop('checked');
-                     check = Number(check);
-                     var msv = $(this).attr('id')
-                     data.push({msv:msv, check:check});
+                    var check = $(this).prop('checked');
+                    check = Number(check);
+                    var msv = $(this).attr('id')
+                    data.push({msv:msv, check:check});
                 });
 
                 $.ajax({

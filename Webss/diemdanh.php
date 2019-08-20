@@ -13,7 +13,7 @@
     <script type="text/javascript" src="style/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
-<body style="margin: auto;">
+<body style="margin: auto; border:1px solid back">
     <div>
     <div>
 			<?php
@@ -24,11 +24,11 @@
 			<?php
 			include("menu2.php");
 			?>
-        </div>
+        </div><br>
         <div>
-        <table class="bang" id='bangdiemdanh'>
+        <table class="bang" id='bangdiemdanh' >
         </table><br>
-        <button id="btnThem">Lưu</button>
+        <button id="btnThem">Điểm danh</button>
         </div>
         <div>
 			<?php 

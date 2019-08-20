@@ -8,7 +8,7 @@ body{
 }
 header{
     
-    text-align:center;
+    text-align:left;
     
 }
 .Logo{
@@ -20,7 +20,7 @@ header{
 }
 .menu{
     flex:80%;
-  
+    padding-top: 10px;
 }
 
 .thanh a{
@@ -96,4 +96,40 @@ span {
   .dropdown12:hover .dropdown-content12 {
     display: block;
   }
+ .bang {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .form input[type="text"], .form input[type="password"] {
+   
+    font-size: 22px;
+    border: none;
+    border-bottom: 1px solid #fff; 
 
+    padding: 10px;
+    font-family: 'Molengo', sans-serif;
+}
+.form input[type="password"]{
+	margin-top: 30px;
+}
+.form input[type="submit"] {
+    color: #fff;
+    background: #0894f7;
+    border: none;
+    padding: .5em 4em;
+   margin-top: 40px;
+   margin-left: 110px;
+    font-size: 20px;
+    cursor: pointer;	
+}
